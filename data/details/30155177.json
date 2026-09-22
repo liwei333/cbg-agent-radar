@@ -1,0 +1,55 @@
+{
+  "itemId": "30155177",
+  "url": "https://xyq-m.cbg.163.com/cgi/mweb/equip/554/202609072300113-554-9UAMHOHO1BMV",
+  "collectedAt": "2026-09-22T16:00:00+08:00",
+  "price": 6400,
+  "level": 109,
+  "school": "无底洞",
+  "server": "无与伦比-兰亭序",
+  "race": null,
+  "base": {
+    "achievement": 1764,
+    "potentialFruit": 100,
+    "opportunity": null,
+    "skills": null,
+    "humanCultivation": null,
+    "petCultivation": null,
+    "auxiliarySkills": null
+  },
+  "cultivation": {
+    "totalCultivation": 51,
+    "totalPetCultivation": 48,
+    "personCultivation": "3个满",
+    "petCultivation": "1个满"
+  },
+  "equipment": [],
+  "pets": [],
+  "accessories": [],
+  "cosmetics": {
+    "limitedCostumes": [
+      "水云归"
+    ],
+    "costumes": [],
+    "mounts": [],
+    "limitedMounts": null
+  },
+  "valuation": {
+    "fairValue": null,
+    "quickSellValue": null,
+    "discount": null
+  },
+  "score": {
+    "total": null,
+    "base": null,
+    "equipment": null,
+    "pets": null,
+    "cosmetics": null,
+    "liquidity": null,
+    "grade": null
+  },
+  "source": {
+    "collector": "pc-browser-agent",
+    "screenshots": []
+  },
+  "notes": "16件限量锦衣，拆售召唤兽，但价格偏高"
+}

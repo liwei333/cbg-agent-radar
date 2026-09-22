@@ -1,0 +1,11 @@
+{
+  "batchId": "2026-09-22-001",
+  "startedAt": "2026-09-22T15:30:00+08:00",
+  "finishedAt": "2026-09-22T16:00:00+08:00",
+  "filters": {
+    "level": 109,
+    "priceMin": 3500,
+    "priceMax": 6500
+  },
+  "resultCount": 7
+}

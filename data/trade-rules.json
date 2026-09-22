@@ -1,0 +1,62 @@
+{
+  "description": "梦幻西游藏宝阁交易规则 - 待验证",
+  "verifiedAt": null,
+  "rules": {
+    "saleFee": {
+      "value": null,
+      "ruleVerified": false,
+      "note": "需要从当前梦幻西游藏宝阁实际页面确认"
+    },
+    "quickSellFee": {
+      "value": null,
+      "ruleVerified": false,
+      "note": "需要从当前梦幻西游藏宝阁实际页面确认"
+    },
+    "minFee": {
+      "value": null,
+      "ruleVerified": false,
+      "note": "需要确认是否有最低手续费"
+    },
+    "relisting": {
+      "value": null,
+      "ruleVerified": false,
+      "note": "需要确认买入后多久允许重新出售"
+    },
+    "registrationPeriod": {
+      "value": null,
+      "ruleVerified": false,
+      "note": "需要确认是否有登记期"
+    },
+    "publicityPeriod": {
+      "value": null,
+      "ruleVerified": false,
+      "note": "需要确认是否存在公示期"
+    },
+    "crossServer": {
+      "value": null,
+      "ruleVerified": false,
+      "note": "需要确认跨服相关成本"
+    },
+    "timeLock": {
+      "value": null,
+      "ruleVerified": false,
+      "note": "需要确认是否有角色时间锁"
+    },
+    "generalBinding": {
+      "value": null,
+      "ruleVerified": false,
+      "note": "需要确认将军令绑定时间影响"
+    },
+    "withdrawalWait": {
+      "value": null,
+      "ruleVerified": false,
+      "note": "需要确认提现等待时间"
+    }
+  },
+  "accountStatus": {
+    "blocker": "BLOCKER-001",
+    "description": "当前账号无法完成角色购买",
+    "detail": "账号显示'购买及出售功能受限'",
+    "impact": "无法完成购买流程"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "itemId": "4990993",
+  "url": "https://xyq-m.cbg.163.com/cgi/mweb/equip/163/202409220900113-163-QOJO2USU2BIL",
+  "collectedAt": "2026-09-22T16:00:00+08:00",
+  "price": 3999,
+  "level": 109,
+  "school": "化生寺",
+  "server": "上海1区-晚芳亭",
+  "race": null,
+  "base": {
+    "achievement": 1215,
+    "potentialFruit": 36,
+    "opportunity": null,
+    "skills": null,
+    "humanCultivation": null,
+    "petCultivation": null,
+    "auxiliarySkills": null
+  },
+  "cultivation": {
+    "totalCultivation": 20,
+    "totalPetCultivation": 4,
+    "personCultivation": null,
+    "petCultivation": null
+  },
+  "equipment": [],
+  "pets": [],
+  "accessories": [],
+  "cosmetics": {
+    "limitedCostumes": null,
+    "costumes": [],
+    "mounts": [],
+    "limitedMounts": null
+  },
+  "valuation": {
+    "fairValue": null,
+    "quickSellValue": null,
+    "discount": null
+  },
+  "score": {
+    "total": null,
+    "base": null,
+    "equipment": null,
+    "pets": null,
+    "cosmetics": null,
+    "liquidity": null,
+    "grade": null
+  },
+  "source": {
+    "collector": "pc-browser-agent",
+    "screenshots": []
+  },
+  "notes": "修炼极低，不推荐"
+}

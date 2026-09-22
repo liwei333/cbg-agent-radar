@@ -1,0 +1,56 @@
+{
+  "itemId": "7037673",
+  "url": "https://xyq-m.cbg.163.com/cgi/mweb/equip/200/202609150600113-200-JH9HAR8ELDJN",
+  "collectedAt": "2026-09-22T16:00:00+08:00",
+  "price": 4689,
+  "level": 109,
+  "school": "神木林",
+  "server": "陕西区-大雁塔",
+  "race": null,
+  "base": {
+    "achievement": 2315,
+    "potentialFruit": 100,
+    "opportunity": null,
+    "skills": null,
+    "humanCultivation": null,
+    "petCultivation": null,
+    "auxiliarySkills": null
+  },
+  "cultivation": {
+    "totalCultivation": 65,
+    "totalPetCultivation": 55,
+    "personCultivation": "4个满",
+    "petCultivation": "2个满"
+  },
+  "equipment": [],
+  "pets": [],
+  "accessories": [],
+  "cosmetics": {
+    "limitedCostumes": [
+      "喜羊羊",
+      "葫芦娃"
+    ],
+    "costumes": [],
+    "mounts": [],
+    "limitedMounts": null
+  },
+  "valuation": {
+    "fairValue": null,
+    "quickSellValue": null,
+    "discount": null
+  },
+  "score": {
+    "total": null,
+    "base": null,
+    "equipment": null,
+    "pets": null,
+    "cosmetics": null,
+    "liquidity": null,
+    "grade": null
+  },
+  "source": {
+    "collector": "pc-browser-agent",
+    "screenshots": []
+  },
+  "notes": "总修65较高，14件限量锦衣，但无道具无召唤兽"
+}

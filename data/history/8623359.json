@@ -1,0 +1,17 @@
+{
+  "itemId": "8623359",
+  "observations": [
+    {
+      "timestamp": "2026-09-22T15:30:00+08:00",
+      "price": 4888,
+      "status": "listed",
+      "note": "首次发现"
+    },
+    {
+      "timestamp": "2026-09-22T16:45:00+08:00",
+      "price": 4888,
+      "status": "listed",
+      "note": "深度采集时确认"
+    }
+  ]
+}

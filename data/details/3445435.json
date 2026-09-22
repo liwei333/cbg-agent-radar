@@ -1,0 +1,57 @@
+{
+  "itemId": "3445435",
+  "url": "https://xyq-m.cbg.163.com/cgi/mweb/equip/930/202609112100113-930-DPXNEUCJ6M01",
+  "collectedAt": "2026-09-22T16:00:00+08:00",
+  "price": 4841,
+  "level": 109,
+  "school": "女儿村",
+  "server": "江苏3区-烟花三月",
+  "race": null,
+  "base": {
+    "achievement": 1118,
+    "potentialFruit": 86,
+    "opportunity": null,
+    "skills": null,
+    "humanCultivation": null,
+    "petCultivation": null,
+    "auxiliarySkills": null
+  },
+  "cultivation": {
+    "totalCultivation": 68,
+    "totalPetCultivation": 12,
+    "personCultivation": "4个满",
+    "petCultivation": "0"
+  },
+  "equipment": [],
+  "pets": [],
+  "accessories": [],
+  "cosmetics": {
+    "limitedCostumes": [
+      "潮汐帆板",
+      "水云归",
+      "灼灼韶华"
+    ],
+    "costumes": [],
+    "mounts": [],
+    "limitedMounts": null
+  },
+  "valuation": {
+    "fairValue": null,
+    "quickSellValue": null,
+    "discount": null
+  },
+  "score": {
+    "total": null,
+    "base": null,
+    "equipment": null,
+    "pets": null,
+    "cosmetics": null,
+    "liquidity": null,
+    "grade": null
+  },
+  "source": {
+    "collector": "pc-browser-agent",
+    "screenshots": []
+  },
+  "notes": "总修68高但宠修12低，12件限量锦衣，靓号，经验少"
+}

@@ -1,0 +1,55 @@
+{
+  "updatedAt": "2026-09-22T17:00:00+08:00",
+  "total": 7,
+  "items": [
+    {
+      "itemId": "4990993",
+      "price": 3999,
+      "level": 109,
+      "school": "化生寺",
+      "detail": "data/details/4990993.json"
+    },
+    {
+      "itemId": "8623359",
+      "price": 4888,
+      "level": 109,
+      "school": "魔王寨",
+      "detail": "data/details/8623359.json"
+    },
+    {
+      "itemId": "5927781",
+      "price": 4505.3,
+      "level": 109,
+      "school": "大唐官府",
+      "detail": "data/details/5927781.json"
+    },
+    {
+      "itemId": "4256777",
+      "price": 5666,
+      "level": 109,
+      "school": "神木林",
+      "detail": "data/details/4256777.json"
+    },
+    {
+      "itemId": "7037673",
+      "price": 4689,
+      "level": 109,
+      "school": "神木林",
+      "detail": "data/details/7037673.json"
+    },
+    {
+      "itemId": "30155177",
+      "price": 6400,
+      "level": 109,
+      "school": "无底洞",
+      "detail": "data/details/30155177.json"
+    },
+    {
+      "itemId": "3445435",
+      "price": 4841,
+      "level": 109,
+      "school": "女儿村",
+      "detail": "data/details/3445435.json"
+    }
+  ]
+}
