@@ -42,3 +42,39 @@
 
 - 手机号、网易账号、QQ、微信、身份信息不得出现在任何上传数据中
 - 截图需人工或自动检查是否包含个人信息
+- 所有采集数据通过 `.gitignore` 和敏感信息扫描双重检查
+
+## Phase 3 新增规范
+
+### null/empty 语义
+
+- `[]` 只能表示"已确认没有"
+- 未采集到使用 `null` + `collectionStatus: "not_collected"`
+- 部分采集使用 `[]` + `collectionStatus: "partial"`
+- 完整采集使用 `[]` + `collectionStatus: "complete"`
+
+### 状态机
+
+```
+DISCOVERED → LIST_COLLECTED → DETAIL_PARTIAL → DETAIL_COMPLETE
+    → COMPARABLES_PARTIAL → COMPARABLES_READY → VALUED → PROFITABLE
+    → READY_TO_BUY → USER_APPROVAL_REQUIRED → PURCHASED
+```
+
+### Comparable 数据
+
+- 每个 comparable 必须有 itemId 或 detailUrl 或 fingerprint
+- fingerprint 不能包含价格字段（同一角色可能降价）
+- 市场池按门派分别建立
+
+### 价格历史
+
+- 同一 itemId 多次观察记录价格变化
+- `not_found` 不等于 `sold`，标记为 `unknown_exit`
+- 维护 firstSeenAt 和 lastSeenAt
+
+### listingAge
+
+- `listingRemainingTime`：页面显示的剩余时间
+- `observedListingAgeHours`：now - firstSeenAt
+- 不要混淆两者

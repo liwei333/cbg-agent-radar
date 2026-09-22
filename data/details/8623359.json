@@ -7,9 +7,15 @@
   "school": "魔王寨",
   "server": "名扬三界-文韬武略",
   "race": null,
+
   "firstSeenAt": "2026-09-22T15:30:00+08:00",
-  "lastSeenAt": "2026-09-22T16:45:00+08:00",
-  "listingAge": "5天10时（剩余）",
+  "lastSeenAt": "2026-09-22T17:45:00+08:00",
+  "listingRemainingTime": "5天10时（剩余）",
+  "observedListingAgeHours": 48,
+
+  "status": "DETAIL_PARTIAL",
+  "isSplitSale": false,
+
   "base": {
     "achievement": 2506,
     "potentialFruit": 100,
@@ -48,17 +54,14 @@
     "personCultivation": "3个满",
     "petCultivation": "2个满"
   },
+
   "equipment": [
     {
       "slot": "armor",
       "name": "珊瑚玉衣",
       "level": 100,
       "element": "木",
-      "attributes": {
-        "defense": 264,
-        "constitution": 16,
-        "agility": 30
-      },
+      "attributes": { "defense": 264, "constitution": 16, "agility": 30 },
       "gem": "月亮石",
       "gemLevel": 7,
       "repair": 71,
@@ -72,113 +75,65 @@
     }
   ],
   "equipmentTotal": 1,
-  "equipmentVisible": 1,
-  "equipmentNote": "移动端仅展示1件装备详情",
-  "accessories": [],
+  "equipmentCollectionStatus": "COMPLETE",
+  "equipmentNote": "角色仅1件装备（道具栏显示1件）",
+
+  "accessories": null,
+  "accessoriesCollectionStatus": "UNKNOWN",
+  "accessoriesNote": "移动端页面不展示灵饰详情",
+
   "pets": [
     {
-      "name": "鼠先锋",
-      "type": "鼠先锋",
-      "level": 1,
-      "skillCount": 4,
-      "skills": ["隐身", "永恒", "敏捷", "高级感知"],
+      "name": "鼠先锋", "type": "鼠先锋", "level": 1,
+      "skillCount": 4, "skills": ["隐身", "永恒", "敏捷", "高级感知"],
       "specialSkills": [],
-      "attackAptitude": 1356,
-      "defenseAptitude": 1465,
-      "physicalAptitude": 3982,
-      "magicAptitude": 2249,
-      "speedAptitude": 1253,
-      "dodgeAptitude": 1294,
-      "growth": 1.238,
-      "advancement": null,
-      "element": "火",
-      "lifespan": 5999,
-      "isBaby": false,
-      "estimatedValue": null
+      "attackAptitude": 1356, "defenseAptitude": 1465, "physicalAptitude": 3982,
+      "magicAptitude": 2249, "speedAptitude": 1253, "dodgeAptitude": 1294,
+      "growth": 1.238, "advancement": null, "element": "火", "lifespan": 5999,
+      "isBaby": false, "innerElixir": null, "characteristic": null,
+      "estimatedValue": null, "unknown": false
     },
     {
-      "name": "恶魔泡泡",
-      "type": "恶魔泡泡",
-      "level": 114,
-      "skillCount": 5,
-      "skills": ["连击", "神佑复生", "必杀", "防御", "高级幸运"],
+      "name": "恶魔泡泡", "type": "恶魔泡泡", "level": 114,
+      "skillCount": 5, "skills": ["连击", "神佑复生", "必杀", "防御", "高级幸运"],
       "specialSkills": [],
-      "attackAptitude": 1400,
-      "defenseAptitude": 1400,
-      "physicalAptitude": 3500,
-      "magicAptitude": 1800,
-      "speedAptitude": 1200,
-      "dodgeAptitude": 1200,
-      "growth": 1.2,
-      "advancement": null,
-      "element": "金",
-      "lifespan": 7867,
-      "isBaby": true,
-      "estimatedValue": null
+      "attackAptitude": 1400, "defenseAptitude": 1400, "physicalAptitude": 3500,
+      "magicAptitude": 1800, "speedAptitude": 1200, "dodgeAptitude": 1200,
+      "growth": 1.2, "advancement": null, "element": "金", "lifespan": 7867,
+      "isBaby": true, "innerElixir": null, "characteristic": null,
+      "estimatedValue": null, "unknown": false
     },
     {
-      "name": "犀牛将军（人形）",
-      "type": "犀牛将军",
-      "level": 0,
-      "skillCount": 2,
-      "skills": ["再生", "剑荡四方"],
+      "name": "犀牛将军（人形）", "type": "犀牛将军", "level": 0,
+      "skillCount": 2, "skills": ["再生", "剑荡四方"],
       "specialSkills": [],
-      "attackAptitude": 1356,
-      "defenseAptitude": 1451,
-      "physicalAptitude": 4520,
-      "magicAptitude": 2226,
-      "speedAptitude": 1140,
-      "dodgeAptitude": 1140,
-      "growth": 1.23,
-      "advancement": null,
-      "element": "土",
-      "lifespan": 6975,
-      "isBaby": true,
-      "estimatedValue": null
+      "attackAptitude": 1356, "defenseAptitude": 1451, "physicalAptitude": 4520,
+      "magicAptitude": 2226, "speedAptitude": 1140, "dodgeAptitude": 1140,
+      "growth": 1.23, "advancement": null, "element": "土", "lifespan": 6975,
+      "isBaby": true, "innerElixir": null, "characteristic": null,
+      "estimatedValue": null, "unknown": false
     },
     {
-      "name": "龟丞相",
-      "type": "龟丞相",
-      "level": 29,
-      "skillCount": 3,
-      "skills": ["冥思", "水攻", "水属性吸收"],
+      "name": "龟丞相", "type": "龟丞相", "level": 29,
+      "skillCount": 3, "skills": ["冥思", "水攻", "水属性吸收"],
       "specialSkills": [],
-      "attackAptitude": 901,
-      "defenseAptitude": 1344,
-      "physicalAptitude": 5383,
-      "magicAptitude": 1716,
-      "speedAptitude": 757,
-      "dodgeAptitude": 997,
-      "growth": 1.049,
-      "advancement": null,
-      "element": "木",
-      "lifespan": 11290,
-      "isBaby": false,
-      "estimatedValue": null
+      "attackAptitude": 901, "defenseAptitude": 1344, "physicalAptitude": 5383,
+      "magicAptitude": 1716, "speedAptitude": 757, "dodgeAptitude": 997,
+      "growth": 1.049, "advancement": null, "element": "木", "lifespan": 11290,
+      "isBaby": false, "innerElixir": null, "characteristic": null,
+      "estimatedValue": null, "unknown": false
     }
   ],
   "petTotal": 4,
   "petCapacity": 9,
-  "specialPets": [],
+  "petsCollectionStatus": "PARTIAL",
+  "petsNote": "查看4只，还有5只未查看",
+
   "cosmetics": {
     "costumeCount": 17,
     "limitedCostumeCount": 8,
-    "identifiedLimitedCostumes": [
-      "狼牙棒",
-      "浪淘纱",
-      "巡骑护心",
-      "巡骑面甲",
-      "吕布狮头套"
-    ],
-    "identifiedNormalCostumes": [
-      "蓝色妖姬",
-      "雨中漫步",
-      "金箍棒",
-      "王牌选手装饰篮",
-      "萌龙咆哮",
-      "龙腾九州",
-      "团团圆圆"
-    ],
+    "identifiedLimitedCostumes": ["狼牙棒", "浪淘纱", "巡骑护心", "巡骑面甲", "吕布狮头套"],
+    "identifiedNormalCostumes": ["蓝色妖姬", "雨中漫步", "金箍棒", "王牌选手装饰篮", "萌龙咆哮", "龙腾九州", "团团圆圆"],
     "identificationComplete": true,
     "xianYu": 955,
     "xianYuPoints": 5264,
@@ -193,23 +148,22 @@
     "dyeFruitCount": 20,
     "dyeSchemeSaved": 1
   },
+  "cosmeticsCollectionStatus": "COMPLETE",
+
   "valuation": {
-    "fairValueLow": null,
-    "fairValueMid": null,
-    "fairValueHigh": null,
-    "quickSellValue": null,
-    "confidence": "insufficient-data",
-    "method": "comparable-sales"
+    "fairValueLow": null, "fairValueMid": null, "fairValueHigh": null,
+    "quickSellValue": null, "discount": null,
+    "confidence": "insufficient-data", "method": "comparable-sales"
   },
-  "score": {
-    "total": null,
-    "base": null,
-    "equipment": null,
-    "pets": null,
-    "cosmetics": null,
-    "liquidity": null,
-    "grade": null
+  "score": { "total": null, "base": null, "equipment": null, "pets": null, "cosmetics": null, "liquidity": null, "grade": null },
+  "dataQuality": {
+    "base": 90, "equipment": 100, "pets": 50, "accessories": 0, "cosmetics": 100, "comparables": 40, "overall": 60
   },
+  "priceHistory": [
+    { "timestamp": "2026-09-22T15:30:00+08:00", "price": 4888, "status": "listed", "note": "首次发现" },
+    { "timestamp": "2026-09-22T17:45:00+08:00", "price": 4888, "status": "listed", "note": "深度采集时确认" }
+  ],
+
   "source": {
     "collector": "zcode-pc-browser",
     "screenshots": [
@@ -219,6 +173,6 @@
       "mobile/screenshots/8623359/cosmetics.png"
     ]
   },
-  "status": "DEEP_COLLECTED",
-  "notes": "修炼较高(58/57)，149亿经验，100潜能果，3+2修炼满，有浪淘纱，2只坐骑。召唤兽4只：鼠先锋(4技能)、恶魔泡泡(5技能)、犀牛将军(2技能)、龟丞相(3技能)。装备仅看到1件(珊瑚玉衣)。"
+  "status": "DETAIL_PARTIAL",
+  "notes": "修炼较高(58/57)，149亿经验，100潜能果，3+2修炼满，有浪淘纱，2只坐骑。召唤兽4只已查看。装备1件(珊瑚玉衣)。dataQuality.overall=60，刚好达到阈值但可比样本不足。"
 }

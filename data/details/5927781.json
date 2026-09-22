@@ -7,10 +7,15 @@
   "school": "大唐官府",
   "server": "广东4区-流花湖",
   "race": null,
+
   "firstSeenAt": "2026-09-22T15:30:00+08:00",
-  "lastSeenAt": "2026-09-22T17:00:00+08:00",
-  "listingAge": "9天6时（剩余）",
+  "lastSeenAt": "2026-09-22T18:00:00+08:00",
+  "listingRemainingTime": "9天6时（剩余）",
+  "observedListingAgeHours": 48,
+
+  "status": "DETAIL_PARTIAL",
   "isSplitSale": true,
+
   "base": {
     "achievement": 1485,
     "potentialFruit": 100,
@@ -22,18 +27,12 @@
     "historicalSchools": null,
     "skills": null,
     "humanCultivation": {
-      "attack": null,
-      "defense": null,
-      "spellAttack": null,
-      "spellDefense": null,
+      "attack": null, "defense": null, "spellAttack": null, "spellDefense": null,
       "personCultivationCount": 3,
       "personCultivationFull": true
     },
     "petCultivation": {
-      "attack": null,
-      "defense": null,
-      "spellAttack": null,
-      "spellDefense": null,
+      "attack": null, "defense": null, "spellAttack": null, "spellDefense": null,
       "petCultivationCount": 1,
       "petCultivationFull": true
     },
@@ -48,77 +47,40 @@
     "personCultivation": "3个满",
     "petCultivation": "1个满"
   },
-  "equipment": [],
+
+  "equipment": null,
   "equipmentTotal": 18,
-  "equipmentVisible": 0,
-  "equipmentNote": "卖家拆售物品，装备单独出售，角色详情页不显示装备图标。已知有永不磨损装备，锻炼等级5/4/6/5级，但具体装备名称和属性未在角色详情页展示。",
-  "splitSaleEquipment": {
-    "hasNeverWear": true,
-    "gemLevels": [5, 4, 6, 5],
-    "identified": false,
-    "note": "拆售道具区域显示永不磨损和锻炼等级，但无法确认具体是哪件装备"
-  },
-  "accessories": [],
+  "equipmentCollectionStatus": "UNKNOWN",
+  "equipmentNote": "卖家拆售物品，装备单独出售。已知有永不磨损装备，锻炼等级5/4/6/5级，但具体装备名称和属性未在角色详情页展示。需要单独查看拆售商品页面。",
+
+  "accessories": null,
+  "accessoriesCollectionStatus": "UNKNOWN",
+  "accessoriesNote": "移动端页面不展示灵饰详情",
+
   "pets": [
     {
-      "name": "泪妖",
-      "type": "泪妖",
-      "level": 119,
+      "name": "泪妖", "type": "泪妖", "level": 119,
       "skillCount": 8,
       "skills": ["冥思", "慧根", "高级魔之心", "弱点土", "法术连击", "法术暴击", "高级法术波动", "泰山压顶"],
       "specialSkills": [],
-      "attackAptitude": 1303,
-      "defenseAptitude": 829,
-      "physicalAptitude": 4508,
-      "magicAptitude": 2104,
-      "speedAptitude": 1292,
-      "dodgeAptitude": 1227,
-      "growth": 1.194,
-      "advancement": null,
-      "element": "木",
-      "lifespan": 2282,
-      "isBaby": true,
+      "attackAptitude": 1303, "defenseAptitude": 829, "physicalAptitude": 4508,
+      "magicAptitude": 2104, "speedAptitude": 1292, "dodgeAptitude": 1227,
+      "growth": 1.194, "advancement": null, "element": "木", "lifespan": 2282,
+      "isBaby": true, "innerElixir": "擅咒5层/灵身5层/灵光5层", "characteristic": null,
       "splitSalePrice": 250,
-      "estimatedValue": null
+      "estimatedValue": null, "unknown": false
     }
   ],
   "petTotal": 3,
   "petCapacity": 8,
-  "specialPets": [],
-  "splitSalePets": {
-    "pet1": {
-      "name": "泪妖",
-      "level": 119,
-      "skillCount": 8,
-      "price": 250,
-      "certified": true
-    },
-    "pet2": {
-      "name": "未知",
-      "skillCount": 5,
-      "note": "法资3240，5技能，未查看详情"
-    }
-  },
+  "petsCollectionStatus": "PARTIAL",
+  "petsNote": "仅查看1只泪妖(拆售¥250)，还有2只未查看（法资3240 5技能）",
+
   "cosmetics": {
     "costumeCount": 16,
     "limitedCostumeCount": 4,
-    "identifiedLimitedCostumes": [
-      "齐天小圣",
-      "巡骑面甲",
-      "巡骑护心",
-      "怀旧逍遥生炫卡"
-    ],
-    "identifiedNormalCostumes": [
-      "金箍棒",
-      "夜影",
-      "夏日清凉",
-      "黑色武将服",
-      "腾蛇炫卡",
-      "动物装饰篮",
-      "金风",
-      "恶魔翅膀",
-      "沙骨王座"
-    ],
+    "identifiedLimitedCostumes": ["齐天小圣", "巡骑面甲", "巡骑护心", "怀旧逍遥生炫卡"],
+    "identifiedNormalCostumes": ["金箍棒", "夜影", "夏日清凉", "黑色武将服", "腾蛇炫卡", "动物装饰篮", "金风", "恶魔翅膀", "沙骨王座"],
     "identificationComplete": true,
     "xianYu": 4620,
     "xianYuPoints": 2000,
@@ -133,23 +95,22 @@
     "dyeFruitCount": 30,
     "dyeSchemeSaved": 1
   },
+  "cosmeticsCollectionStatus": "COMPLETE",
+
   "valuation": {
-    "fairValueLow": null,
-    "fairValueMid": null,
-    "fairValueHigh": null,
-    "quickSellValue": null,
-    "confidence": "insufficient-data",
-    "method": "comparable-sales"
+    "fairValueLow": null, "fairValueMid": null, "fairValueHigh": null,
+    "quickSellValue": null, "discount": null,
+    "confidence": "insufficient-data", "method": "comparable-sales"
   },
-  "score": {
-    "total": null,
-    "base": null,
-    "equipment": null,
-    "pets": null,
-    "cosmetics": null,
-    "liquidity": null,
-    "grade": null
+  "score": { "total": null, "base": null, "equipment": null, "pets": null, "cosmetics": null, "liquidity": null, "grade": null },
+  "dataQuality": {
+    "base": 80, "equipment": 0, "pets": 30, "accessories": 0, "cosmetics": 100, "comparables": 40, "overall": 38
   },
+  "priceHistory": [
+    { "timestamp": "2026-09-22T15:30:00+08:00", "price": 4505.3, "status": "listed", "note": "首次发现" },
+    { "timestamp": "2026-09-22T18:00:00+08:00", "price": 4505.3, "status": "listed", "note": "深度采集时确认" }
+  ],
+
   "source": {
     "collector": "zcode-pc-browser",
     "screenshots": [
@@ -158,6 +119,6 @@
       "mobile/screenshots/5927781/cosmetics.png"
     ]
   },
-  "status": "DEEP_COLLECTED",
-  "notes": "卖家拆售物品。修炼一般(51/39)，50亿经验，100潜能果。有永不磨损装备(具体未知)。召唤兽3只：泪妖(8技能¥250拆售)、法资3240(5技能)、第3只未知。锦衣16件(4件限量)。"
+  "status": "DETAIL_PARTIAL",
+  "notes": "卖家拆售物品(SPLIT_SALE)。修炼一般(51/39)，50亿经验，100潜能果。装备拆售(永不磨损，具体未知)。召唤兽3只(泪妖8技能¥250拆售)。dataQuality.overall=38，远低于60，禁止生成BUY。"
 }

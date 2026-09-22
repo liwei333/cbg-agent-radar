@@ -7,9 +7,15 @@
   "school": "神木林",
   "server": "湖南区-洞庭湖",
   "race": null,
+
   "firstSeenAt": "2026-09-22T15:30:00+08:00",
-  "lastSeenAt": "2026-09-22T16:30:00+08:00",
-  "listingAge": "7天3时（剩余）",
+  "lastSeenAt": "2026-09-22T17:30:00+08:00",
+  "listingRemainingTime": "7天3时（剩余）",
+  "observedListingAgeHours": 48,
+
+  "status": "DETAIL_PARTIAL",
+  "isSplitSale": false,
+
   "base": {
     "achievement": 3233,
     "potentialFruit": 100,
@@ -49,26 +55,20 @@
     "personCultivation": "3个满",
     "petCultivation": "4个满"
   },
+
   "equipment": [
     {
       "slot": "necklace",
       "name": "黄玉琉佩",
       "level": 100,
-      "attributes": {
-        "spellAttack": 209
-      },
+      "attributes": { "spellAttack": 209 },
       "gem": "舍利子",
       "gemLevel": 8,
       "repair": 11,
       "specialEffects": ["神木林专用"],
       "specialSkills": [],
       "setEffect": "变身术之炎魔神",
-      "runeStones": [
-        "敏捷+1 灵力+1.5",
-        "体质+1 灵力+1.5",
-        "力量+1",
-        "魔力+1 气血+10"
-      ],
+      "runeStones": ["敏捷+1 灵力+1.5", "体质+1 灵力+1.5", "力量+1", "魔力+1 气血+10"],
       "runeStoneSet": "万灵诸念符石",
       "runeStoneBonus": "增加门派技能万灵诸念等级4级",
       "socketCount": "4孔/4孔",
@@ -82,19 +82,20 @@
       "slot": "shoes",
       "name": "绿靴",
       "level": 50,
-      "attributes": {
-        "defense": 31,
-        "agility": 25
-      },
+      "attributes": { "defense": 31, "agility": 25 },
       "repair": 350,
       "isNeverWear": false,
       "estimatedValue": null
     }
   ],
   "equipmentTotal": 11,
-  "equipmentVisible": 2,
+  "equipmentCollectionStatus": "PARTIAL",
   "equipmentNote": "移动端仅展示2件装备详情，其余9件未展开",
-  "accessories": [],
+
+  "accessories": null,
+  "accessoriesCollectionStatus": "UNKNOWN",
+  "accessoriesNote": "移动端页面不展示灵饰详情",
+
   "pets": [
     {
       "name": "画魂",
@@ -114,40 +115,28 @@
       "element": "木",
       "lifespan": 6580,
       "isBaby": true,
-      "estimatedValue": null
+      "innerElixir": null,
+      "characteristic": null,
+      "estimatedValue": null,
+      "unknown": false
     }
   ],
   "petTotal": 1,
   "petCapacity": 8,
-  "specialPets": ["泡泡精灵"],
+  "petsCollectionStatus": "PARTIAL",
+  "petsNote": "仅查看1只，还有7只未查看",
+
   "cosmetics": {
     "costumeCount": 26,
     "limitedCostumeCount": 17,
     "identifiedLimitedCostumes": [
-      "潮汐帆板",
-      "吉星迎虎",
-      "浮生绡",
-      "巡骑面甲",
-      "飞天舞·月露",
-      "顽皮小恶魔·魅影",
-      "飞天舞",
-      "水云归",
-      "星虹蝶影",
-      "巡骑护心",
-      "风卷浪",
-      "云梦化蝶",
-      "月半潮",
-      "狼牙棒"
+      "潮汐帆板", "吉星迎虎", "浮生绡", "巡骑面甲",
+      "飞天舞·月露", "顽皮小恶魔·魅影", "飞天舞", "水云归",
+      "星虹蝶影", "巡骑护心", "风卷浪", "云梦化蝶", "月半潮", "狼牙棒"
     ],
     "identifiedNormalCostumes": [
-      "蓝色妖姬",
-      "王牌选手装饰篮",
-      "金箍棒",
-      "顽皮小恶魔",
-      "庖厨装饰篮",
-      "心享气球",
-      "明月竹影",
-      "追风少侠"
+      "蓝色妖姬", "王牌选手装饰篮", "金箍棒", "顽皮小恶魔",
+      "庖厨装饰篮", "心享气球", "明月竹影", "追风少侠"
     ],
     "identificationComplete": true,
     "xianYu": 40,
@@ -163,11 +152,14 @@
     "dyeFruitCount": 90,
     "dyeSchemeSaved": 2
   },
+  "cosmeticsCollectionStatus": "COMPLETE",
+
   "valuation": {
     "fairValueLow": null,
     "fairValueMid": null,
     "fairValueHigh": null,
     "quickSellValue": null,
+    "discount": null,
     "confidence": "insufficient-data",
     "method": "comparable-sales"
   },
@@ -180,6 +172,30 @@
     "liquidity": null,
     "grade": null
   },
+  "dataQuality": {
+    "base": 90,
+    "equipment": 30,
+    "pets": 20,
+    "accessories": 0,
+    "cosmetics": 100,
+    "comparables": 40,
+    "overall": 52
+  },
+  "priceHistory": [
+    {
+      "timestamp": "2026-09-22T15:30:00+08:00",
+      "price": 5666,
+      "status": "listed",
+      "note": "首次发现"
+    },
+    {
+      "timestamp": "2026-09-22T17:30:00+08:00",
+      "price": 5666,
+      "status": "listed",
+      "note": "深度采集时确认"
+    }
+  ],
+
   "source": {
     "collector": "zcode-pc-browser",
     "screenshots": [
@@ -190,6 +206,6 @@
       "mobile/screenshots/4256777/cosmetics.png"
     ]
   },
-  "status": "DEEP_COLLECTED",
-  "notes": "宠修68极高(4个满)，17件限量锦衣(14种unique)，2只限量祥瑞，163亿经验，100潜能果，靓号，坐骑成长2.3033。召唤兽仅1只画魂(2技能)。装备仅看到2件详情。"
+  "status": "DETAIL_PARTIAL",
+  "notes": "宠修68极高(4个满)，17件限量锦衣(14种unique)，2只限量祥瑞，163亿经验，100潜能果，靓号，坐骑成长2.3033。召唤兽仅1只画魂(2技能)。装备仅看到2件详情。dataQuality.overall=52，低于60，禁止生成BUY。"
 }

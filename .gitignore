@@ -23,9 +23,11 @@ adb_keys*
 
 # 个人账号信息
 *phone*
+*mobile*
 *qq*
 *wechat*
 *id_card*
+*idcard*
 
 # GitHub Token
 *gho_*
@@ -46,3 +48,8 @@ desktop.ini
 # 日志中的敏感数据（仅排除可能包含 Cookie/Token 的日志）
 mobile/logs/private/
 pc/logs/private/
+
+# 敏感模式（用于 grep 扫描参考）
+# 手机号: [0-9]{11}
+# 网易账号: 数字串 > 8位
+# Cookie/Token: 长字符串包含 = 或 :
